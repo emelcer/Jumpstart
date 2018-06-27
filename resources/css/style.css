@@ -42,15 +42,31 @@ strong {
 
 /*jumbotron*/
 
-div.jumbotron-bike {
+
+.jumbotron-bike {
 	background: url(../media/jumbotron-bike.jpg);
+}
+
+
+.jumbotron-beer {
+	background: url(../media/jumbotron-beer.jpg);
+}
+
+.jumbotron-duffel {
+	background: url(../media/jumbotron-duffel.jpg);
+}	
+
+.jumbotron-flowers {
+	background: url(../media/jumbotron-flowers.jpg);
+}
+
+.jumbotron {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	padding: 11.85rem 1rem;
 	text-align: center;
 }
-
 
 .jumbotron h1 {
 	font-family: Monoton;
@@ -130,10 +146,28 @@ a.btn-primary:active {
 }
 
 
+/*image container styling*/
+
+
+.image-container {
+	overflow: hidden;
+}
+
 .image-container img {
 	width: 100%;
   	opacity: 0.7;
+  	transition: transform 0.5s, opacity 0.5s   ;
 }
+
+.image-container img:hover {
+	opacity: 1;
+	-webkit-transform: scale(1.3);
+ 	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+/*media query for mobile devices*/
+
 
 @media only screen and (max-width: 600px) {
 	.jumbotron-bike {
