@@ -1,0 +1,153 @@
+
+body {
+	font-size: 14px;
+	font-family: "Open Sans", sans serif;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	padding-left: 15px;
+	color: #399bd1;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+span {
+	display: block;
+	margin-bottom: 1rem;
+}
+
+
+strong {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+/*nav*/
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover  {
+	color: #399bd1;
+	background-color: inherit;
+}
+
+.navbar {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+/*jumbotron*/
+
+div.jumbotron-bike {
+	background: url(../media/jumbotron-bike.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 11.85rem 1rem;
+	text-align: center;
+}
+
+
+.jumbotron h1 {
+	font-family: Monoton;
+	font-size: 8rem;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+.jumbotron p {
+	font-size: 1.75rem;
+	max-width: 51.3rem;
+	margin: 3rem auto;
+	color: white;
+}
+
+
+/*Featured project */
+
+.featured-project .row:first-child {
+	margin-bottom:20px;
+}
+
+.featured-project .image-container {
+	overflow: hidden;
+
+}
+
+h3.product-list {
+	color: #399bd1;
+}
+
+
+.featured-project ul li {
+	line-height: 1.4;
+	color: rgba(0,0,0,0.7);
+}
+
+
+
+/*trouble section*/
+
+.trouble {
+	margin-top: 5.85rem;
+	background-color: #f3f3f3;
+	text-align: center;
+	padding: 6rem 1rem;
+}
+
+.trouble p {
+	margin: 1.4rem auto;
+	
+}
+
+
+/* Bootstrap button styles overrides */
+
+
+a.btn-primary {
+	transition: box-shadow .5s ease;
+	border: none;
+	padding: 1.3rem;
+	width: 11.4rem;
+	margin-top: 2.8rem;
+	font-size: 1.5rem;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+a.btn-primary:hover {
+	box-shadow: 0 0 12px rgba(0,0,0,0.9);
+	background-color: #337ab7;
+}
+
+
+a.btn-primary:active {
+	box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+
+.image-container img {
+	width: 100%;
+  	opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px) {
+	.jumbotron-bike {
+		position: relative;
+		top: 100px;
+	}
+	.featured-project {
+		margin-top: 100px;
+	}
+	.jumbotron h1 {
+		font-size: 6rem;
+	}
+	.projects .project {
+		margin-bottom: 7rem;
+	}
+}
+
